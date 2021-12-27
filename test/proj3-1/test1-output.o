@@ -1,0 +1,9 @@
+LINK
+3 2 3
+.text 1000 2500 RP
+.data 4000 c00 RWP
+.bss 5000 1900 RW
+symbol1 100 .text D
+symbol2 200 .data U
+100 .text 8 A4
+200 .bss 10 A4
